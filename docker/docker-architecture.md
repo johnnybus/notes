@@ -46,7 +46,7 @@ Finally if there's a duplicate, the duplicate directory is hidden to simplify th
 Docker Engine combines these components into a wrapper we call a container format. The default container format is called [libcontainer](https://github.com/docker/libcontainer). In the future, Docker may support other container formats, for example, by integrating with BSD Jails or Solaris Zones.
 
 --
-###### Notes:
+###### Sources:
 - http://superuser.com/questions/326190/how-does-unionfs-work
 - https://docs.docker.com/engine/understanding-docker/
 - https://www.kernel.org/doc/Documentation/cgroup-v1/cgroups.txt

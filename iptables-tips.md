@@ -21,13 +21,12 @@
     iptables -t nat -A POSTROUTING -j MASQUERADE
 
 
-**Glossary**
----
-**OUTPUT** - Data from computer to network
-**INPUT** - Data from network to computer
-**FOWARD** - Forwards the data from a point to another, this usually is used on routers
-**ACCEPT** - Allow the connection.
-**DROP** - Drop the connection, act like it never happened. This is best if you don’t want the source to realize your system exists.
-**REJECT** - Don’t allow the connection, but send back an error. This is best if you don’t want a particular source to connect to your system, but you want them to know that your firewall blocked them.
-**Chain** - Group of rules, can be also can be named as table.
-**Rules** - Manage the kind and which connections are available on a chain.
+##### Glossary
+- OUTPUT - Data from computer to network
+- INPUT - Data from network to computer
+- FOWARD - Forwards the data from a point to another, this usually is used on routers
+- ACCEPT - Allow the connection.
+- DROP - Drop the connection, act like it never happened. This is best if you don’t want the source to realize your system exists.
+- REJECT - Don’t allow the connection, but send back an error. This is best if you don’t want a particular source to connect to your system, but you want them to know that your firewall blocked them.
+- Chain - Group of rules, can be also can be named as table.
+- Rules - Manage the kind and which connections are available on a chain.
