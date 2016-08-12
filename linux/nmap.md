@@ -56,3 +56,7 @@ _File Format (host.txt)_
     nmap -sS -O -P0 -vv 10.100.146.75
     nmap -sS -O -Pn -vv 10.100.146.75
     nmap -sS -O -Pn -vv 10.100.146.75
+
+--
+Source:
+- https://www.youtube.com/watch?v=3Ab1gw8vQjg&list=PL6gx4Cwl9DGBsINfLVidNVaZ-7_v1NJIo
