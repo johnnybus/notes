@@ -1,5 +1,10 @@
 Online MySQL/MariaDB migration to RDS
 =====================================
+This was tested with:
+- MariaDB 10.1.16 -> RDS MariaDB 10.1.24
+- MySQL 5.5 -> RDS Aurora 5.6
+---
+
 ### Activate Bin Log and set Server ID on Master (you'll need to restart MySQL server)
 ```
 [mysqld]
