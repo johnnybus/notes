@@ -3,7 +3,10 @@ Online MySQL/MariaDB migration to RDS
 This was tested with:
 - MariaDB 10.1.16 -> RDS MariaDB 10.1.24
 - MySQL 5.5 -> RDS Aurora 5.6
+
+If you need to exclude some DB or tables from the replication, you won't be able to do that with RDS, to by pass it, setup a EC2 instance to use it as slave of the current master, and setup the replication on the RDS against the EC2 instance.
 ---
+
 
 ### Activate Bin Log and set Server ID on Master (you'll need to restart MySQL server)
 ```
